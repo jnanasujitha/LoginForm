@@ -1,0 +1,37 @@
+body{
+    background:rgb(240, 188, 128);
+}
+.main{
+    position:absolute;
+    background:linear-gradient(to top ,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+    top:30%;
+    bottom:30%;
+    left:35%;
+    width:330px;
+    height:250px;
+    border-radius: 10px;
+}
+caption{
+    font-size:40px;
+    color: #fff;
+}
+tr th{
+    color:#fff;
+}
+tr{
+    margin-bottom:30px;
+}
+.btn{
+    color:rgb(240, 186, 128);
+    background-color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(128, 240, 137);
+    color: #fff;
+}
+.btn[type="reset"]{
+    margin-left: 110px;
+}
